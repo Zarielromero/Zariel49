@@ -1,0 +1,59 @@
+from turtle import *
+
+#Read.Me
+
+
+#window created
+hideturtle()
+
+color ("orange") #shape1
+penup()
+goto(-200,-200)
+pendown()
+begin_fill()
+for i in range (5):
+    forward (100)
+    right(72)
+end_fill()
+
+color ("yellow") #shape2
+penup()
+goto(200,-200)
+pendown()
+begin_fill()
+for i in range (3):
+    forward (100)
+    right(120)
+end_fill()
+
+color ("green") #shape3
+penup()
+goto(200,200)
+pendown()
+begin_fill()
+for i in range (0,4):
+    forward (100)
+    right(90)
+end_fill()
+
+color ("red") #shape4
+penup()
+goto(-180,200)
+pendown()
+begin_fill()
+for i in range (360):
+    forward (1)
+    right(1)
+end_fill()
+
+color ("blue") #shape5
+penup()
+goto(50,0)
+pendown()
+begin_fill()
+for i in range (0,4):
+    right(45)
+    forward (100)
+    right(45)
+end_fill()
+
